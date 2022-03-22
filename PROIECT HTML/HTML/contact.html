@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/cesese.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="../HTML/PROIECT.html">Home</a>
+        <a href="../HTML/contact.html">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Oferte</button>
+          <div class="dropdown-content">
+            <a href="../HTML/oferteLOWEND.html">Low-end</a>
+            <a href="../HTML/oferteMEDIUM.html">Medium</a>
+            <a href="../HTML/oferteHIGHEND.html">High-end</a>
+          </div>
+        </div>
+        <a href="#feedback">Feedback</a>
+    </div>
+    <div class = "maindiv">
+        <h1>Alege-ti oferta care ti se potriveste!</h1>
+        <div class = "divDESPRENOI">
+          <div style = "margin-bottom: 20px;">&emsp;Completeaza formularul de mai jos si rezerva chiar acum masina pe care vrei sa o inchiriezi!
+              <form action="../HTML/PROIECT.html">
+                <div style="margin-bottom: 25px; margin-top: 25px;">
+                  <label for="cars">Din care categorie ati dori sa inchiriati?</label>
+                  <select id="cars" name="cars">
+                    <option style="display:none;">Cauta</option>
+                    <option value="ieftin" style="background-color: rgb(211, 204, 173);">LOW-END</option>
+                    <option value="ok" style="background-color: rgb(211, 204, 173);">MEDIUM</option>
+                    <option value="scump" style="background-color: rgb(211, 204, 173)">HIGH-END</option>
+                  </select>
+                </div>
+                <div style="margin-bottom: 25px;">
+                    <label for="fname">Nume:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Prenume:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="lname">Varsta:</label><br>
+                    <input type="text" id="varsta" name="varsta"><br>
+                    <label for="lname">Numar de telefon:</label><br>
+                    <input type="text" id="tel" name="tel"><br>
+                    <label for="lname">Data la care doriti sa vizionati o masina:</label><br>
+                    <input type="text" id="data" name="data"><br>
+              </div>
+              <div style="margin-bottom: 25px;">
+                    Dispuneti de un permis de conducere?<br>
+                    <input type="radio" id="p1" name="permis" value="Da">
+                    <label for="p1">Da</label><br>
+                    <input type="radio" id="p2" name="permis" value="Nu">
+                    <label for="p2">Nu</label><br>
+              </div>
+              <div>
+                    <input type="checkbox">
+                    <label for="c1"> Am citit si sunt de acord cu Termenii si Conditiile.</label><br>
+                    <input type="checkbox">
+                    <label for="c2"> Doresc sa fiu contact la numarul de telefon cu o zi inainte de data stabilita pentru vizionare.</label><br><br>
+                    <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
