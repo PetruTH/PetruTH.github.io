@@ -1,15 +1,17 @@
+
 body{
-  background-color: rgb(226, 226, 226);
+  background-color: aliceblue;
 }
+
 .navbar {
-  position: sticky;
+  position: fixed;
   display: flex;
-  justify-content: space-around;
-  overflow: hidden;
-  background-color: #333;
+  background-color: #08090A;
   font-family: Arial;
   top: 0;
   left: 0;
+  z-index: 1;
+  width:100%;
 }
 
 .navbar a {
@@ -43,7 +45,7 @@ body{
 
 .dropdown-content {
   display: none;
-  position: relative;
+  position: fixed;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -91,14 +93,23 @@ p::before{
   .grid1{
     width:100%;
    
-    margin-top: 40px;
+    margin-top: 100px;
     display: grid;
-      grid-template-columns: 33%, 33%, 33%;
-      grid-template-rows: 33%, 33%, 33%;
-      height: 100%;
+    grid-template-columns: 33%, 33%, 33%;
+    grid-template-rows: 33%, 33%, 33%;
+    height: 100%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.4px;
+    word-spacing: 1.2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
   }
   .masina1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     align-items: center;
     height: 100%;
@@ -110,7 +121,6 @@ p::before{
     flex-direction: column;
   }
   .masina2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     align-items: center;
     height: 100%;
@@ -122,7 +132,6 @@ p::before{
     flex-direction: column;
   }
   .masina3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     align-items: center;
     height: 100%;
@@ -134,18 +143,18 @@ p::before{
     flex-direction: column;
   }
   .zoom {
-    height:58%; 
-    width:70%;
+    height:100%; 
+    width:100%;
     transition: transform .2s; 
-    
+    border-radius: 22%;
     margin: 0 auto;
+    box-shadow: 9px 14px 31px -4px #000000;
   }
   
   .zoom:hover {
-    transform: scale(1.3);
+    transform: scale(1.25);
   }
   .masina4{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     align-items: center;
     height: 100%;
@@ -157,7 +166,6 @@ p::before{
     flex-direction: column;
   }
   .masina5{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     align-items: center;
     height: 100%;
@@ -169,7 +177,6 @@ p::before{
     flex-direction: column;
   }
   .masina6{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     align-items: center;
     height: 100%;
@@ -181,7 +188,6 @@ p::before{
     flex-direction: column;
   }
   .masina7{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     align-items: center;
     height: 100%;
@@ -193,7 +199,6 @@ p::before{
     flex-direction: column;
   }
   .masina8{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     align-items: center;
     height: 100%;
@@ -205,7 +210,6 @@ p::before{
     flex-direction: column;
   }
   .masina9{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     align-items: center;
     height: 100%;
@@ -216,3 +220,151 @@ p::before{
     display: flex;
     flex-direction: column;
   }
+  @media screen and (max-width: 992px) {
+    .grid1{
+      font-size: small;
+      grid-template-rows: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    grid-template-columns: 100%;
+
+    }
+    .masina1{
+      font-size: xx-small;
+      grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    }
+    .masina2{
+      grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+      font-size: xx-small;
+    }
+    .masina3{
+      grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+      font-size: xx-small;
+    }
+    .masina4{
+      grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+      font-size: xx-small;
+    }
+    .masina5{
+      grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+      font-size: xx-small;
+    }
+    .masina6{
+      grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+      font-size: xx-small;
+    }
+    .masina7{
+      grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 7;
+    grid-row-end: 7;
+      font-size: xx-small;
+    }
+    .masina8{
+      grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 8;
+    grid-row-end: 8;
+      font-size: xx-small;
+    }
+    .masina9{
+      grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 9;
+    grid-row-end: 9;
+      font-size: xx-small;
+    }
+    p{
+      font-size: small;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .grid1{
+    font-size: xx-small;
+    grid-template-rows: 11%, 11%, 11%, 11%, 11%, 11%, 11%, 11%;
+    grid-template-columns: 100%;
+  }
+  .masina1{
+    font-size: 7px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  .masina2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    font-size: 7px;
+  }
+  .masina3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    font-size: 7px;
+  }
+  .masina4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    font-size: 7px;
+  }
+  .masina5{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    font-size: 7px;
+  }
+  .masina6{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    font-size: 7px;
+  }
+  .masina7{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    font-size: 7px;
+  }
+  .masina8{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    font-size: 7px;
+  }
+  .masina9{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 9;
+    grid-row-end: 9;
+    font-size: 7px;
+  }
+  p{
+    font-size: xx-small;
+  }
+}

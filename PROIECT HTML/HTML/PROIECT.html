@@ -8,17 +8,16 @@
 </head>
 <body>
   <div class="navbar">
-    <a href="../HTML/PROIECT.html">Home</a>
-    <a href="../HTML/contact.html">Contact</a>
+    <a href="../HTML/PROIECT.html" style="margin-right: 10px;">Home</a>
+    <a href="../HTML/contact.html" style="margin-right: 10px;">Contact</a>
     <div class="dropdown">
-      <button class="dropbtn">Oferte</button>
+      <button class="dropbtn" style="margin-right: 10px;">Oferte</button>
       <div class="dropdown-content">
         <a href="../HTML/oferteLOWEND.html">Low-end</a>
         <a href="../HTML/oferteMEDIUM.html">Medium</a>
         <a href="../HTML/oferteHIGHEND.html">High-end</a>
       </div>
     </div>
-    <a href="#feedback">Feedback</a>
   </div>
 
   <div class = "maindiv">
@@ -38,17 +37,17 @@
     <div style="text-align: center; font-size: larger;">Echipa TW Inchirieri</div>
     <div class = "divECHIPA">
         <div>
-          <div><img src="../IMAGINI/cineva.png" alt="cineva" style="width:100%;"></div>
+          <div class = "imag"><img src="../IMAGINI/cineva.png" alt="cineva" style="width:100%;"></div>
           <div>Cristiano Messi</div>
           <div>Manager</div>
         </div>
         <div>
-          <div><img src="../IMAGINI/cineva.png" alt="cineva" style="width:100%;"></div>
+          <div class = "imag"><img src="../IMAGINI/cineva.png" alt="cineva" style="width:100%;"></div>
           <div>Lionel Ronaldo</div>
           <div>Assistent Manager</div>
         </div>
         <div>
-          <div><img src="../IMAGINI/cineva.png" alt="cineva" style="width:100%;"></div>
+          <div class = "imag"><img src="../IMAGINI/cineva.png" alt="cineva" style="width:100%;"></div>
           <div>Tavi Popescu</div>
           <div>Coordonator flota</div>
         </div>
@@ -92,22 +91,30 @@
       </table>
   </div>
   <div class="divCONDITII">Termeni si conditii
-    <ul>
+    <div id = "margine">
+      <ul>
         <li>Minim 3 ani de la obtinerea permisului</li>
         <li>Varsta cuprinsa intre 24 si 68 de ani</li>
         <li>este necesara o garantie de 200-500 Euro, depinzand de clasa masinii pe care doriti sa o inchiriati</li>
         <li>livrarea si restituirea vehiculului inchiriat se efectueaza la locatia, data si ora mentionate de catre client</li>
         <li>clientul are obligatia de a conduce orice vehicul rent-a-car respectand prevederile legale</li>
-    </ul>
+      </ul>
+    </div>
+    <div>
+      Tariful de inchiriere nu acopera urmatoarele:
+      <ol>
+        <li>Costuri de combustibilul (vehiculul este livrat cu minim un sfert de rezervor de motorina sau benzina)</li>
+        <li>amenzile de circulatie primite de client</li>
+        <li>Inlocuirea autoturismului defect, in cazul in care defectiunile sesizate au fost provocate de o folosire inadecvata a masinii; in caz de accidente care pot afecta conditiile de utilizare in siguranta pe carosabil, din pricina clientului, asa cum se arata in procesul verbal intocmit de Politie</li>
+      </ol> 
   </div>
-  <div class="divCONDITII">Tariful de inchiriere nu acopera urmatoarele:
-    <ol>
-      <li>Costuri de combustibilul (vehiculul este livrat cu minim un sfert de rezervor de motorina sau benzina)</li>
-      <li>amenzile de circulatie primite de client</li>
-      <li>Inlocuirea autoturismului defect, in cazul in care defectiunile sesizate au fost provocate de o folosire inadecvata a masinii; in caz de accidente care pot afecta conditiile de utilizare in siguranta pe carosabil, din pricina clientului, asa cum se arata in procesul verbal intocmit de Politie</li>
-    </ol> 
+  </div>
+  <div style="margin-bottom:35px; margin-left: 27%;">
+    <div style="margin-bottom: 35px; font-weight:600; font-family: 'Courier New', Courier, monospace;">Locatia sediului nostru principal, situat langa Aeroportul Otopeni</div>
+    <div><img src="../IMAGINI/locatie.jpg" alt="locatie" class="zoom"></div>
   </div>
   <div class="divANIMATIE1">Multumim pentru atentie! </div>
+  </div>
 </body>
 </html>
 
