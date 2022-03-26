@@ -1,4 +1,3 @@
-
 body{
     background-color: aliceblue;
   }
@@ -173,7 +172,7 @@ body{
   
       }
       .masina1{
-        font-size: medium;
+        font-size: 20px;
         grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 1;
@@ -184,21 +183,21 @@ body{
       grid-column-end: 1;
       grid-row-start: 2;
       grid-row-end: 2;
-        font-size: medium;
+        font-size: 20px;
       }
       .masina3{
         grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 3;
       grid-row-end: 3;
-        font-size: medium;
+        font-size: 20px;
       }
       .masina4{
         grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 4;
       grid-row-end: 4;
-        font-size: medium;
+        font-size: 20px;
       }
       p{
         font-size: small;
