@@ -242,8 +242,8 @@ option{
     font-size: 12px;
   }
   .formular{
-    width: 100%;
-    margin: 0;
+    width: 80%;
+    margin-left: 9%;
   }
   .maindiv{
     font-size: 10px;
@@ -259,8 +259,8 @@ option{
     margin-right: 0;
   }
   .formular{
-    width: 100%;
-    margin: 0;
+    width: 80%;
+    margin-left: 9%;
   }
   .divANIMATIE2{
     display: none;
