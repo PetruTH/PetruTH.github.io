@@ -206,7 +206,7 @@ body{
   
   @media screen and (max-width: 600px) {
     .grid1{
-      font-size: xx-small;
+      font-size:medium;
       grid-template-rows: 25% 25% 25% 25%;
       grid-template-columns: 100%;
     }
