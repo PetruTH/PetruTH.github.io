@@ -95,8 +95,8 @@ body{
      
       margin-top: 100px;
       display: grid;
-      grid-template-columns: 33%, 33%, 33%;
-      grid-template-rows: 33%, 33%, 33%;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-rows: 33% 33% 33%;
       height: 100%;
       font-family: "Comic Sans MS", cursive, sans-serif;
       font-size: 15px;
@@ -167,13 +167,13 @@ body{
     }
     @media screen and (max-width: 992px) {
       .grid1{
-        font-size: small;
-        grid-template-rows: 25%, 25%, 25%, 25%;
+        font-size: medium;
+        grid-template-rows: 25% 25% 25% 25%;
       grid-template-columns: 100%;
   
       }
       .masina1{
-        font-size: xx-small;
+        font-size: medium;
         grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 1;
@@ -184,21 +184,21 @@ body{
       grid-column-end: 1;
       grid-row-start: 2;
       grid-row-end: 2;
-        font-size: xx-small;
+        font-size: medium;
       }
       .masina3{
         grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 3;
       grid-row-end: 3;
-        font-size: xx-small;
+        font-size: medium;
       }
       .masina4{
         grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 4;
       grid-row-end: 4;
-        font-size: xx-small;
+        font-size: medium;
       }
       p{
         font-size: small;
@@ -208,7 +208,7 @@ body{
   @media screen and (max-width: 600px) {
     .grid1{
       font-size: xx-small;
-      grid-template-rows: 25%, 25%, 25%, 25%;
+      grid-template-rows: 25% 25% 25% 25%;
       grid-template-columns: 100%;
     }
     .masina1{
