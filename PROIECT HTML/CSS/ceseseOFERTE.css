@@ -98,7 +98,7 @@ p::before{
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
     height: 100%;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     letter-spacing: -0.4px;
     word-spacing: 1.2px;
