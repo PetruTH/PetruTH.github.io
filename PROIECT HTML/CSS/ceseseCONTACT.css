@@ -225,6 +225,19 @@ option{
   margin-bottom: 20px;
 }
 
+.sumbitbutton {
+  width:50%;
+  margin-left: 22%;
+  transition: transform .5s; 
+  border-radius: 22%;
+  margin: 0 auto;
+  box-shadow: 9px 14px 31px -4px #000000;
+}
+
+.submitbutton:hover {
+  transform: scale(0.8);
+}
+
 @media screen and (max-width: 992px) {
   .divANIMATIE2{
     display: none;
