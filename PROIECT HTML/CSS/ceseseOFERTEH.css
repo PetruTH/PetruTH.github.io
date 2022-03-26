@@ -165,61 +165,6 @@ body{
       display: flex;
       flex-direction: column;
     }
-    .masina5{
-      text-align: center;
-      align-items: center;
-      height: 100%;
-      grid-column-start: 2;
-      grid-column-end: 2;
-      grid-row-start: 2;
-      grid-row-end: 2;
-      display: flex;
-      flex-direction: column;
-    }
-    .masina6{
-      text-align: center;
-      align-items: center;
-      height: 100%;
-      grid-column-start: 3;
-      grid-column-end: 3;
-      grid-row-start: 2;
-      grid-row-end: 2;
-      display: flex;
-      flex-direction: column;
-    }
-    .masina7{
-      text-align: center;
-      align-items: center;
-      height: 100%;
-      grid-column-start: 1;
-      grid-column-end: 1;
-      grid-row-start: 3;
-      grid-row-end: 3;
-      display: flex;
-      flex-direction: column;
-    }
-    .masina8{
-      text-align: center;
-      align-items: center;
-      height: 100%;
-      grid-column-start: 2;
-      grid-column-end: 2;
-      grid-row-start: 3;
-      grid-row-end: 3;
-      display: flex;
-      flex-direction: column;
-    }
-    .masina9{
-      text-align: center;
-      align-items: center;
-      height: 100%;
-      grid-column-start: 3;
-      grid-column-end: 3;
-      grid-row-start: 3;
-      grid-row-end: 3;
-      display: flex;
-      flex-direction: column;
-    }
     @media screen and (max-width: 992px) {
       .grid1{
         font-size: small;
